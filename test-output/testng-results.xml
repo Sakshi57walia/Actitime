@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[title isactiTIME - Login]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9000" started-at="2018-12-02T08:11:31Z" finished-at="2018-12-02T08:11:40Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9000" started-at="2018-12-02T08:11:31Z" finished-at="2018-12-02T08:11:40Z">
+      <class name="com.actitime.tests.Logout">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.actitime.tests.Logout@7d9d1a19]" name="preCondition" is-config="true" duration-ms="5112" started-at="2018-12-02T08:11:31Z" finished-at="2018-12-02T08:11:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="tesrvalidlogin()[pri:0, instance:com.actitime.tests.Logout@7d9d1a19]" name="tesrvalidlogin" duration-ms="1559" started-at="2018-12-02T08:11:36Z" finished-at="2018-12-02T08:11:37Z">
+          <reporter-output>
+            <line>
+              <![CDATA[title isactiTIME - Login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tesrvalidlogin -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.actitime.tests.Logout@7d9d1a19]" name="postCondition" is-config="true" duration-ms="2312" started-at="2018-12-02T08:11:37Z" finished-at="2018-12-02T08:11:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.actitime.tests.Logout -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
